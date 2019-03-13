@@ -1,6 +1,10 @@
+@import "../fonts/stylesheet.css";
+@import "../fonts/style.css";
+
 body{
     margin: 0px;
     padding: 0px;
+    font-family: 'Vegur Light';
 }
 
 div#header nav{
@@ -10,20 +14,21 @@ div#header nav{
 #header{
     background-color: #7aad95;
     height: 100%;
-    font-size: 35px;
-    padding: 1.5% 1% 1% 33%;
-    
+    font-size: 28px;
+    padding: 1.5% 1% 1% 33%;   
 }
 
 #header img{
     float:left;
-    height: 125px;
-    width: 125px;
+    height: 115px;
+    width: 115px;
     padding: 25px 25px 0px 0px; /*t r b l*/
 }
 
 #header h1{
     position: relative;
+    font-family: 'quantifybold';
+    padding: 2% 1% 1% 1%;
 }
 
 nav{
@@ -80,6 +85,7 @@ nav h2{
     color: #fafafc;
     height: 100%;
     padding: 2% 2% 2% 2%;
+    font-family: 'Vegur Light';
 }
 
 #content img{
@@ -97,6 +103,6 @@ nav h2{
     color: #20383f;
     height: 100%;
     background-image: url(../img/footer.png);
-    padding: 0.001% 0.001% 0.001% 70%;
+    padding: 0.001% 0.001% 0.001% 55%;
 }
 

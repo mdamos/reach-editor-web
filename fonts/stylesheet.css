@@ -18,7 +18,7 @@
     font-family: 'pt_sansregular';
     src: url('pt_sans-web-regular.woff2') format('woff2'),
          url('pt_sans-web-regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-weight: lighter;
+    font-style: lighter;
 
 }
