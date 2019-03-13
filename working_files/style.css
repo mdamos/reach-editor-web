@@ -29,8 +29,6 @@ div#header nav{
 nav{
     background-color: #7aad95;
     height: 100%;
-    /* padding: 20px 20px 20px 20px; */
-
 }
 
 nav ul{
@@ -45,7 +43,6 @@ nav ul li{
 }
 
 nav ul li#nav-item{
-
     padding:0px 25px 25px 25px;
     align-items: center;
     /* padding: 20px 20px 20px 20px; */
@@ -69,7 +66,6 @@ nav ul li span{
 nav img{
     height: 15px;
     width: 100%;
-
 }
 
 nav h2{
@@ -83,7 +79,18 @@ nav h2{
     height: 100%;
     color: #fafafc;
     height: 100%;
-    padding: 20px 20px 20px 20px;
+    padding: 2% 2% 2% 2%;
+}
+
+#content img{
+    height: 30%;
+    width: 30%;
+    padding: 0.5% 0.5% 0.5% 37.30%;
+}
+
+#content h2{
+    padding: 0.5% 0.5% 0.5% 6%;
+    text-align: center;
 }
 
 #footer{
