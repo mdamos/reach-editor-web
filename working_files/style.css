@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+div#header nav{
+    background-color:  #7aad95;
+}
+
+#header{
+    background-color: #7aad95;
+    height: 100%;
+    font-size: 35px;
+    padding: 1.5% 1% 1% 33%;
+    
+}
+
+#header img{
+    float:left;
+    height: 125px;
+    width: 125px;
+    padding: 25px 25px 0px 0px; /*t r b l*/
+}
+
+#header h1{
+    position: relative;
+}
+
+nav{
+    background-color: #7aad95;
+    height: 100%;
+    /* padding: 20px 20px 20px 20px; */
+
+}
+
+nav ul{
+    margin: 0px auto;
+    list-style-type: none;
+    padding: 0% 1% 2.5% 37%;
+}
+
+nav ul li{
+    display: inline-block;
+    font-size: 22px;
+}
+
+nav ul li#nav-item{
+
+    padding:0px 25px 25px 25px;
+    align-items: center;
+    /* padding: 20px 20px 20px 20px; */
+
+}
+
+nav ul li a{
+    color: #fafafc;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #20383f;
+    font-weight: bold;
+}
+
+nav ul li span{
+    color: #20383f; 
+}
+
+nav img{
+    height: 15px;
+    width: 100%;
+
+}
+
+nav h2{
+    padding: 1% 1% 1% 6%;
+    font-size: 30px;
+    text-align: center;
+}
+
+#content{
+    background-color:#20383f;
+    height: 100%;
+    color: #fafafc;
+    height: 100%;
+    padding: 20px 20px 20px 20px;
+}
+
+#footer{
+    color: #20383f;
+    height: 100%;
+    background-image: url(../img/footer.png);
+    padding: 0.001% 0.001% 0.001% 70%;
+}
+
