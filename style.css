@@ -1,5 +1,5 @@
-@import "../fonts/stylesheet.css";
-@import "../fonts/style.css";
+@import "fonts/stylesheet.css";
+@import "fonts/style.css";
 
 h1, h2, h3{
 text-align: center !important;
@@ -15,7 +15,7 @@ body{
     background-color: #7aad95;
     height: 155px;
     font-size: 28px;
-    padding: 1.5% 1% 1% 31%;   
+    padding: 1.5% 1% 1% 30.5%;   
     margin: 0px;
     
 }
@@ -31,7 +31,7 @@ body{
 #header h1{
     font-family: 'quantifybold';
     padding: 2% 1% 1% 0%;
-    width: 63%;
+    width: 680px;
 }
 
 nav{
@@ -82,7 +82,7 @@ nav h2{
 
 #content{
     background-color:#20383f;
-    background-image: url(../img/circuit-board-0.png);
+    background-image: url(img/circuit-board-0.png);
     height: 100%;
     color: #fafafc;
     padding-top: 3.5%;
@@ -111,7 +111,7 @@ nav h2{
 #footer{
     color: #20383f;
     height: 100%;
-    background-image: url(../img/footer.png);
+    background-image: url(img/footer.png);
     padding: 0.25px 0.25px 0.25px 380px;
 }
 #footer h3{
