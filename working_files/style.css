@@ -8,19 +8,14 @@ text-align: center !important;
 body{
     margin: 0px;
     padding: 0px;
-    position: absolute !important;
     font-family: 'Vegur Light';
-}
-
-#page-wrap{
-    position: relative !important;
 }
 
 #header{
     background-color: #7aad95;
     height: 155px;
     font-size: 28px;
-    padding: 1.5% 1% 1% 29%;   
+    padding: 1.5% 1% 1% 31%;   
     margin: 0px;
     
 }
@@ -36,26 +31,27 @@ body{
 #header h1{
     font-family: 'quantifybold';
     padding: 2% 1% 1% 0%;
-    min-width: 67%;
-    width: 67%;
+    width: 63%;
 }
 
 nav{
     background-color: #7aad95;
     height: 20%;
+    padding-bottom: 0.5%;
+    text-align: center;
 }
 
 nav ul{
     margin: 0px auto;
     list-style-type: none;
-    padding: 0.001% 1% 2.5% 33.75%;
-    align-items: center;
+    padding: 0.001% 1% 2.5% 6.15%;
+    display: inline-block;
 }
 
 nav ul li{
-    display: inline-block;
     font-size: 22px;
     padding: 0px 10px;
+    display: inline-block;
 }
 
 nav ul li a{
@@ -86,6 +82,7 @@ nav h2{
 
 #content{
     background-color:#20383f;
+    background-image: url(../img/circuit-board-0.png);
     height: 100%;
     color: #fafafc;
     padding-top: 3.5%;
@@ -102,6 +99,13 @@ nav h2{
     padding: 0% 0.5% 0% 6%;
     text-align: center;
     margin: 0px;
+}
+
+#text-backgrnd{
+    background-color: #20383f;
+    padding: 9.5px 9.5px;
+    width: 600px;
+    height: 200px;
 }
 
 #footer{
